@@ -1,0 +1,43 @@
+.productDetCont{
+    display: flex;
+    justify-content: space-around;
+width: 100%;
+align-items: center;
+}
+.imgage{
+    width: 30%;
+}
+.imgage img{
+    width:80% ;
+}
+.textProductDet{
+    width: 50%;
+}
+.priceRating{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    color: rgb(244, 156, 4);
+}
+.BTNaDDTOCARD{
+    width: 100%;
+
+}
+.BTNaDDTOCARD button{
+    width: 100%;
+    background-color: aqua;
+    color: red;
+    border: none;
+    text-transform: capitalize;
+}
+@media (max-width:767px) {
+    .productDetCont{
+        display: flex;
+        flex-direction: column;
+    }
+    .textProductDet{
+        width: 100%;
+        padding: 10px;
+    }
+}
